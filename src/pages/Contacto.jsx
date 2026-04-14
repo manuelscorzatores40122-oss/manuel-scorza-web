@@ -163,7 +163,7 @@ function Contacto() {
                 id="correo"
                 name="correo"
                 type="email"
-                placeholder="tucorreo@email.com"
+                placeholder="marchaasillohugoronl@gmail.com"
                 value={form.correo}
                 onChange={handleChange}
               />

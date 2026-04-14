@@ -1,11 +1,15 @@
-// Home.jsx
 import "./Home.css"
 
-/* ── Reutiliza la misma función de navegación suave ── */
+/* ── Navegación suave ── */
 const scrollTo = (id) =>
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })
 
 function Home() {
+
+  const goToLogin = () => {
+    window.location.href = "https://mauel-escorza-torres.vercel.app/login"
+  }
+
   return (
     <section id="inicio" className="hero">
       <div className="hero-content">
@@ -13,12 +17,21 @@ function Home() {
         <p>Formando estudiantes con valores, conocimiento y disciplina.</p>
 
         <div className="hero-buttons">
-          {/* Botón principal → sección Nosotros */}
-          <button className="btn-primary" onClick={() => scrollTo("nosotros")}>
+          {/* Botón principal */}
+          <button
+            className="btn-primary"
+            onClick={() => scrollTo("nosotros")}
+          >
             Conoce Nuestro Colegio
           </button>
 
-         
+          {/* 🔐 Botón Login */}
+          <button
+            className="btn-secondary"
+            onClick={goToLogin}
+          >
+            Iniciar sesión
+          </button>
         </div>
       </div>
     </section>
