@@ -18,12 +18,7 @@ function Home() {
 
         <div className="hero-buttons">
           {/* Botón principal */}
-          <button
-            className="btn-primary"
-            onClick={() => scrollTo("nosotros")}
-          >
-            Conoce Nuestro Colegio
-          </button>
+
 
           {/* 🔐 Botón Login */}
           <button
