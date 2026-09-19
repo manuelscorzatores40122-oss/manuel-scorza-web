@@ -24,15 +24,6 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="footer-col">
-          <h4>Contacto</h4>
-          <p><FaMapMarkerAlt /> Cerro Juli, Paucarpata — Arequipa</p>
-          <p><FaEnvelope /> colegio@manuelscorza.edu.pe</p>
-          <div className="footer-redes">
-            <a href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebookF /></a>
-            <a href="https://wa.me/51999999999" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
-          </div>
-        </div>
 
       </div>
 
