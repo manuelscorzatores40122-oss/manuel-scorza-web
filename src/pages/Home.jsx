@@ -7,7 +7,7 @@ const scrollTo = (id) =>
 function Home() {
 
   const goToLogin = () => {
-    window.location.href = "https://mauel-escorza-torres.vercel.app/login"
+    window.location.href = "https://sistema-inventario-computo.vercel.app/auth/login"
   }
 
   return (
